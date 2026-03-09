@@ -1,0 +1,35 @@
+# 虛擬環境 (Python environment)
+.venv/
+venv/
+ENV/
+
+# VS Code 編輯器設定
+.vscode/
+
+# 執行過程產生的資料與檔案
+Generated Files/
+Compress/
+Experience/
+Legacy Experiments V2.0/
+Legacy Experiments V3.0/
+Planning and Document Archives/
+
+# 測試用的大型媒體檔案 (隱寫術專案的核心資料應本地存放)
+Test Image/
+Test_MIDI/
+Reference/
+
+# Python 快取與編譯檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 敏感資訊與認證 (包含 credentials.json 與 token.pickle)
+Keys/
+credentials.json
+token.pickle
+
+# 實驗結果與備份
+experiment_results_batch*
+*.docx
+*.png
